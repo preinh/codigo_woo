@@ -132,7 +132,7 @@ C Read in the number of events in the shallow earthquake catalogue
       READ(5,988) NPT
 988   FORMAT(28X,I6,/) 
       DO 10 I=1,NPT
-C Read event Date, Longitude, Latitude, Magnitude, Lineament angle      
+C Read event Date,Depth, Longitude, Latitude, Magnitude, Lineament angle
       READ(5,990) IYR(I),IM(I),ID(I),KDEP,QKE(I,2),QKE(I,1),QKE(I,3)
       DEEP(I) = KDEP
       TH(I) = 0.0
