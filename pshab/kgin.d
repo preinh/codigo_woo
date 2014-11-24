@@ -11,7 +11,7 @@ Number of Lat./Lon. grid rectangles in Main Block:50,50,
 Main Block Southwest corner (Lat.,Lon.) position :-80.,-37.,
 Latitudinal width (degrees) of grid rectangle    :1.0,
 Longitudinal height (degrees) of grid rectangle  :1.0,
-Mesh size (kms) of sub-grid within a rectangle   :10.0,
+Mesh size (kms) of sub-grid within a rectangle   :2.0,
 
 Background activity rate for Main Block   M3.00  :0.0,
                                           M3.50  :0.0,
